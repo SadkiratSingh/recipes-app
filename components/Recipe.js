@@ -1,7 +1,7 @@
 // because we are using JSX
-import React from "react"
-import IngredientsList from "./IngredientsList"
-import Instructions from "./Instructions"
+import React from "react";
+import IngredientsList from "./IngredientsList";
+import Instructions from "./Instructions";
 
 // export default is used when exporting single entity
 export default function Recipe({name,ingredients,steps}){
