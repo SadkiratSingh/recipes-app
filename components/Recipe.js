@@ -11,7 +11,9 @@ export default function Recipe({name,ingredients,steps}){
                     <li key={index}>{item.name}</li>
                 ))}
             </ul>
+            {/*create a seperate component*/}
             <section className='instructions'>
+                <h2>Cooking Instructions</h2>
                 {steps.map((step,index)=>(
                     <p key={index}>{step}</p>
                 ))}
